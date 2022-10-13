@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200&display=swap');
+
+* {
+    color: #fff;
+    font-family: 'Oxanium', cursive;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 44px;
+}
+
+.logo {
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    margin-right: 250px;
+}
+
+#logo {
+    font-size: 50px;
+    color: red;
+}
+
+#p-logo {
+    position: relative;
+    bottom: 40px;
+}
+
+ul {
+    font-size: 25px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    transition: 0.3s;
+    color: gray;
+}
+
+.border-btn {
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.border-btn:hover {
+    transition: 0.3s;
+    color: black;
+    background-color: white;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid white;
+    background-color: white;
+    width: 1200px;
+    border-radius: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title {
+    text-align: center;
+}
+
+.container-items {
+    margin: 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-shadow: 5px 5px black;
+    transition: transform .1s linear;
+}
+
+a {
+    text-decoration: none;
+}
+
+.subtitle {
+    text-decoration: none;
+}
+
+.container-items:hover {
+    border: 4px solid white;
+    box-shadow: 3px 3px black;
+    transform: scale(1.3);
+    z-index: 999;
+}
+
+.items {
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.items:hover {}
+
+#item-2 {
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    text-align: center;
+}
+
+span {
+    color: gray;
+}
+
+.border-btn-in {
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+}
